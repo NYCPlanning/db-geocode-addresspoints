@@ -1,0 +1,4 @@
+python-geosupport==1.0.5
+sqlalchemy
+psycopg2-binary
+pandas
