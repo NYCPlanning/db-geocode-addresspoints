@@ -1,4 +1,4 @@
-DB_CONTAINER_NAME=atom
+DB_CONTAINER_NAME=addresspt
 
 docker exec $DB_CONTAINER_NAME psql -h localhost -U postgres -c "\copy (SELECT * FROM addresspoints_geocode)
                                 TO '/home/db-geocode-addresspoints/output/addresspoints_geocode.csv'

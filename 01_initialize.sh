@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create a postgres database container atom
-DB_CONTAINER_NAME=atom
+DB_CONTAINER_NAME=addresspt
 
 [ ! "$(docker ps -a | grep $DB_CONTAINER_NAME)" ]\
      && docker run -d --name=$DB_CONTAINER_NAME\

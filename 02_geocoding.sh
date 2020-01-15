@@ -1,4 +1,4 @@
-DB_CONTAINER_NAME=atom
+DB_CONTAINER_NAME=addresspt
 
 docker run -it --rm\
             --network=host\
